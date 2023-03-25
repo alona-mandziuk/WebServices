@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bank>
+    <deposit type="current account" name="Universal">
+        <country>Bikini Bottom</country>
+        <depositor>SpongeBob SquarePants</depositor>
+        <account_id>26007777770001</account_id>
+        <amount>2757</amount>
+        <profitability>0</profitability>
+        <time_constraints>no time constraints</time_constraints>
+    </deposit>
+
+    <deposit type="accumulative account" name="Progressive">
+        <country>Bikini Bottom</country>
+        <depositor>SpongeBob SquarePants</depositor>
+        <account_id>2600775550002</account_id>
+        <amount>1005</amount>
+        <profitability>3</profitability>
+        <time_constraints>2 years</time_constraints>
+    </deposit>
+
+    <deposit type="term deposite" name="TermInator">
+        <country>Bikini Bottom</country>
+        <depositor>Patrick Star</depositor>
+        <account_id>262056848464</account_id>
+        <amount>20000</amount>
+        <profitability>10</profitability>
+        <time_constraints>5 years</time_constraints>
+    </deposit>
+
+    <deposit type="savings deposit" name="PlainSave">
+        <country>Swiss</country>
+        <depositor>Sqiudward Tentacles</depositor>
+        <account_id>26201345154654</account_id>
+        <amount>50000</amount>
+        <profitability>4</profitability>
+        <time_constraints>3 years</time_constraints>
+    </deposit>
+
+</bank>
