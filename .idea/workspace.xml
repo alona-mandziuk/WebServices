@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08794257-47ec-4e34-a056-b07248cc7047" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/hw_1/task_1/BankDeposits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_1/task_1/BankDeposits.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hw_1/task_1/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_1/task_1/readme" afterDir="false" />
     </list>
@@ -21,13 +21,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NVIpuDSaM3JzsyzVjIP3sZg68y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -46,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679743011730</updated>
-      <workItem from="1679743013133" duration="5784000" />
+      <workItem from="1679743013133" duration="6464000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1679745824260</created>
@@ -55,7 +58,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679745824260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit">
+      <created>1679751985152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679751985152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit">
+      <created>1679752054351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679752054351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,6 +82,7 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="readme" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
