@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08794257-47ec-4e34-a056-b07248cc7047" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/hw_1/task_1/BankDeposits.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaee_jax_ws_223_8214.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_1/task_1/entity/BankDeposits.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_1/task_1/entity/BankType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_1/task_1/entity/DepositType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_1/task_1/entity/ObjectFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw_1/task_1/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_1/task_1/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebServices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebServices.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/hw_1/task_1/entity/BankType.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,11 +40,17 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/_java cbs/7_WEB-servises/плагін jaxB/jakarta.xml.bind-api-4.0.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31034482",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -49,7 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679743011730</updated>
-      <workItem from="1679743013133" duration="6464000" />
+      <workItem from="1679743013133" duration="7868000" />
+      <workItem from="1679831669819" duration="2417000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1679745824260</created>
@@ -72,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679752054351</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit">
+      <created>1679752660530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679752660530</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +106,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
 </project>

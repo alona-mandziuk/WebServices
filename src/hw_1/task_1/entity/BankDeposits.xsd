@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bank" type="bankType"/>
+  <xs:complexType name="depositType">
+    <xs:sequence>
+      <xs:element name="country">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Bikini Bottom"/>
+            <xs:enumeration value="Switzerland"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="depositor">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="SpongeBob SquarePants"/>
+            <xs:enumeration value="Patrick Star"/>
+            <xs:enumeration value="Sqiudward Tentacles"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="account_id">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="26007777770001"/>
+            <xs:enumeration value="2600775550002"/>
+            <xs:enumeration value="262056848464"/>
+            <xs:enumeration value="26201345154654"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="amount">
+        <xs:simpleType>
+          <xs:restriction base="xs:long">
+            <xs:enumeration value="2757"/>
+            <xs:enumeration value="1005"/>
+            <xs:enumeration value="20000"/>
+            <xs:enumeration value="50000"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="profitability">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="3"/>
+            <xs:enumeration value="10"/>
+            <xs:enumeration value="4"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="time_constraints">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="no time constraints"/>
+            <xs:enumeration value="2 years"/>
+            <xs:enumeration value="5 years"/>
+            <xs:enumeration value="3 years"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="type" use="optional"/>
+    <xs:attribute type="xs:string" name="name" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="bankType">
+    <xs:sequence>
+      <xs:element type="depositType" name="deposit" maxOccurs="30" minOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
