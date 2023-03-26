@@ -296,4 +296,15 @@ public class DepositType {
         this.name = value;
     }
 
+    @Override
+    public String toString() {
+        return "Deposit: country - " + country +
+                ", \n\tdepositor - " + depositor +
+                ", \n\taccountId " + accountId +
+                ", \n\tamount - " + amount +
+                ", \n\tprofitability - " + profitability +
+                ", \n\ttime constraints - " + timeConstraints +
+                ", \n\ttype - " + type +
+                ", \n\tname - " + name + ".";
+    }
 }
