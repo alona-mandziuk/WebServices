@@ -1,6 +1,4 @@
-
 package hw_1.task_1.entity;
-
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlAttribute;
@@ -10,9 +8,9 @@ import jakarta.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for depositType complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="depositType"&gt;
  *   &lt;complexContent&gt;
@@ -82,17 +80,15 @@ import jakarta.xml.bind.annotation.XmlType;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "depositType", propOrder = {
-    "country",
-    "depositor",
-    "accountId",
-    "amount",
-    "profitability",
-    "timeConstraints"
+        "country",
+        "depositor",
+        "accountId",
+        "amount",
+        "profitability",
+        "timeConstraints"
 })
 public class DepositType {
 
@@ -114,11 +110,9 @@ public class DepositType {
 
     /**
      * Gets the value of the country property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getCountry() {
         return country;
@@ -126,11 +120,9 @@ public class DepositType {
 
     /**
      * Sets the value of the country property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setCountry(String value) {
         this.country = value;
@@ -138,11 +130,9 @@ public class DepositType {
 
     /**
      * Gets the value of the depositor property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getDepositor() {
         return depositor;
@@ -150,11 +140,9 @@ public class DepositType {
 
     /**
      * Sets the value of the depositor property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setDepositor(String value) {
         this.depositor = value;
@@ -162,11 +150,9 @@ public class DepositType {
 
     /**
      * Gets the value of the accountId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getAccountId() {
         return accountId;
@@ -174,11 +160,9 @@ public class DepositType {
 
     /**
      * Sets the value of the accountId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setAccountId(String value) {
         this.accountId = value;
@@ -186,7 +170,6 @@ public class DepositType {
 
     /**
      * Gets the value of the amount property.
-     * 
      */
     public long getAmount() {
         return amount;
@@ -194,7 +177,6 @@ public class DepositType {
 
     /**
      * Sets the value of the amount property.
-     * 
      */
     public void setAmount(long value) {
         this.amount = value;
@@ -202,11 +184,9 @@ public class DepositType {
 
     /**
      * Gets the value of the profitability property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getProfitability() {
         return profitability;
@@ -214,11 +194,9 @@ public class DepositType {
 
     /**
      * Sets the value of the profitability property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setProfitability(String value) {
         this.profitability = value;
@@ -226,11 +204,9 @@ public class DepositType {
 
     /**
      * Gets the value of the timeConstraints property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getTimeConstraints() {
         return timeConstraints;
@@ -238,11 +214,9 @@ public class DepositType {
 
     /**
      * Sets the value of the timeConstraints property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setTimeConstraints(String value) {
         this.timeConstraints = value;
@@ -250,11 +224,9 @@ public class DepositType {
 
     /**
      * Gets the value of the type property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getType() {
         return type;
@@ -262,11 +234,9 @@ public class DepositType {
 
     /**
      * Sets the value of the type property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setType(String value) {
         this.type = value;
@@ -274,11 +244,9 @@ public class DepositType {
 
     /**
      * Gets the value of the name property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getName() {
         return name;
@@ -286,11 +254,9 @@ public class DepositType {
 
     /**
      * Sets the value of the name property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setName(String value) {
         this.name = value;
