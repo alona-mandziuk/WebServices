@@ -40,7 +40,7 @@ class XMLValidator {
         boolean valid = XMLValidator.xmlValidator("src/hw_1/task_1/BankDeposits.xml",
                 "src/hw_1/task_1/BankDeposits.xsd");
         System.out.println("---------------------------");
-        System.out.println("Is XML valid accordint to XSD? - " + valid);
+        System.out.println("Is XML valid according to XSD? - " + valid);
         System.out.println("---------------------------");
     }
 }
