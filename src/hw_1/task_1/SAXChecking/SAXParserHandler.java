@@ -1,4 +1,4 @@
-package hw_1.task_1;
+package hw_1.task_1.SAXChecking;
 
 import hw_1.task_1.entity.DepositType;
 import org.xml.sax.Attributes;

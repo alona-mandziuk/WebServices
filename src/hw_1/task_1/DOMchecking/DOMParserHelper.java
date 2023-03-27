@@ -1,4 +1,4 @@
-package hw_1.task_1;
+package hw_1.task_1.DOMchecking;
 
 import hw_1.task_1.entity.DepositType;
 import org.w3c.dom.Document;

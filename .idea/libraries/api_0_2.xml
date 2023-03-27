@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="api-0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/плагін jaxB/jar_files (4)/api-0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/плагін jaxB/jar_files (4)/api-0.2.jar!/jakarta" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/плагін jaxB/jakarta.activation-api-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/плагін jaxB/jakarta.xml.bind-api-4.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/плагін jaxB/jar_files (4)/api-0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/плагін jaxB/jar_files (4)/api-0.2.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,5 +1,6 @@
-package hw_1.task_1;
+package hw_1.task_1.DOMchecking;
 
+import hw_1.task_1.SortListFromXML;
 import hw_1.task_1.entity.DepositType;
 import org.xml.sax.SAXException;
 
@@ -13,9 +14,7 @@ class DOMParserMain {
 
         List<DepositType> deposites = domParserHelper.getAll();
 
-        System.out.println("---------------------------------");
-        for (DepositType deposit : deposites) {
-            System.out.println(deposit);
-        }
+        SortListFromXML sortListFromXML = new SortListFromXML();
+        sortListFromXML.sortAndPrintDepByAmount(deposites);
     }
 }

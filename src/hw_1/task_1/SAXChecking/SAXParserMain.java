@@ -1,7 +1,9 @@
-package hw_1.task_1;
+package hw_1.task_1.SAXChecking;
 
+import hw_1.task_1.SortListFromXML;
 import hw_1.task_1.entity.DepositType;
 import org.xml.sax.SAXException;
+
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -21,8 +23,7 @@ class SAXParserMain {
 
         List<DepositType> deposites = saxParserHandler.getDeposites();
 
-        for (DepositType deposit : deposites) {
-            System.out.println(deposit);
-        }
+        SortListFromXML sortListFromXML = new SortListFromXML();
+        sortListFromXML.sortAndPrintDepByAmount(deposites);
     }
 }
