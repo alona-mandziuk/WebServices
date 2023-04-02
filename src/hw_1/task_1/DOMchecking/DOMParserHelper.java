@@ -22,7 +22,7 @@ class DOMParserHelper {
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
 
-        document = documentBuilder.parse(String.valueOf(Paths.get("src\\hw_1\\task_1\\BankDeposits.xml")));
+        document = documentBuilder.parse(String.valueOf(Paths.get("src\\hw_1\\task_1\\BankDeposites.xml")));
     }
 
     public List<DepositType> getAll() {

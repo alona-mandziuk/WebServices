@@ -17,7 +17,7 @@ class SAXParserMain {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser parser = factory.newSAXParser();
         SAXParserHandler saxParserHandler = new SAXParserHandler();
-        Path path = Paths.get("src\\hw_1\\task_1\\BankDeposits.xml");
+        Path path = Paths.get("src\\hw_1\\task_1\\BankDeposites.xml");
 
         parser.parse(String.valueOf(path), saxParserHandler);
 

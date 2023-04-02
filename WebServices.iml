@@ -11,5 +11,7 @@
     <orderEntry type="library" name="geronimo-stax-api_1.0_spec-1.0.1" level="project" />
     <orderEntry type="library" name="javaee-jax-ws-223.8214.16" level="project" />
     <orderEntry type="library" name="javax.xml.stream-3.0.1" level="project" />
+    <orderEntry type="library" name="aspose-pdf-2.9.0-jdk16" level="project" />
+    <orderEntry type="library" name="aspose-pdf-22.9" level="project" />
   </component>
 </module>

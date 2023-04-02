@@ -11,7 +11,7 @@ class StAXParserMain {
     public static void main(String[] args) throws XMLStreamException, FileNotFoundException {
         StAXParserHelper stAXParserHelper = new StAXParserHelper();
 
-        List<DepositType> deposites = stAXParserHelper.getAll("src/hw_1/task_1/BankDeposits.xml");
+        List<DepositType> deposites = stAXParserHelper.getAll("src/hw_1/task_1/BankDeposites.xml");
 
         SortListFromXML sortListFromXML = new SortListFromXML();
         sortListFromXML.sortAndPrintDepByAmount(deposites);
