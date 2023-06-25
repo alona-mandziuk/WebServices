@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<candies>
+    <candy>
+        <name>Rafaello</name>
+        <description>Cocos cream with almond nut</description>
+        <color>White</color>
+    </candy>
+    <candy>
+        <name>Twix</name>
+        <description>Cookies with caramel under the chocolate</description>
+        <color>Brown</color>
+    </candy>
+    <candy>
+        <name>Jack</name>
+        <description>Chocolate waffles</description>
+        <color>Brown</color>
+    </candy>
+</candies>
