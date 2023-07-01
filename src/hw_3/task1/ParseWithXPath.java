@@ -31,7 +31,7 @@ class ParseWithXPath {
         NodeList deposites = (NodeList) expression.evaluate(document, XPathConstants.NODESET);
         for (int i = 0; i < deposites.getLength(); i++) {
             Node node = deposites.item(i);
-            System.out.println("Deposit " + (i + 1) + ":");
+            System.out.println("\nDeposit " + (i + 1) + ":");
 
             if ((node.getNodeType() == Node.ELEMENT_NODE)) {
                 Element element = (Element) node;
