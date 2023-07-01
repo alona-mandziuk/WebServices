@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08794257-47ec-4e34-a056-b07248cc7047" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/geronimo_stax_api_1_0_spec_1_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task1/ParseWithXPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task1/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositedRootCountry.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDeposites.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDeposites.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositesChangingRoot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositesNewPage.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositesSortByAmount.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositesToTxt.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/XMLtoHTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/XMLtoPDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/XMLtoTXT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/XMLtoXMLwithRootChanging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw_1/task_1/XMLtoPDFconverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_1/task_1/XMLtoPDFconverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw_3/task1/ParseWithXPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_3/task_1/ParseWithXPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw_3/task1/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_3/task_1/readme" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,41 +51,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/_java cbs/homeWork/6_Web-Services/geronimo-stax-api_1.0_spec-1.0.1.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31034482&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/_java cbs/homeWork/6_Web-Services/WebServices/src/hw_3/task_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31034482",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\_java cbs\homeWork\6_Web-Services\WebServices\src\hw_3\task_2" />
       <recent name="G:\_java cbs\homeWork\6_Web-Services\WebServices\src\hw_1\task_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\_java cbs\homeWork\6_Web-Services\WebServices\src\hw_1\task_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParseWithXPath">
-    <configuration name="ParseCandiesXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw_2.ParseCandiesXML" />
+  <component name="RunManager" selected="Application.XMLtoPDF">
+    <configuration name="XMLtoHTML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw_3.task_2.XMLtoHTML" />
       <module name="WebServices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw_2.*" />
+          <option name="PATTERN" value="hw_3.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParseWithXPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw_3.task1.ParseWithXPath" />
+    <configuration name="XMLtoHTMLinTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw_3.task_2.XMLtoHTMLinTable" />
       <module name="WebServices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw_3.task1.*" />
+          <option name="PATTERN" value="hw_3.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TagContentShower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw_1.task_2.TagContentShower" />
+    <configuration name="XMLtoPDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw_3.task_2.XMLtoPDF" />
       <module name="WebServices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw_1.task_2.*" />
+          <option name="PATTERN" value="hw_3.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw_1.task_1.XMLValidator" />
+    <configuration name="XMLtoTXT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw_3.task_2.XMLtoTXT" />
       <module name="WebServices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw_1.task_1.*" />
+          <option name="PATTERN" value="hw_3.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLtoPDFconverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw_1.task_1.XMLtoPDFconverter" />
+    <configuration name="XMLtoXMLwithRootChanging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw_3.task_2.XMLtoXMLwithRootChanging" />
       <module name="WebServices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw_1.task_1.*" />
+          <option name="PATTERN" value="hw_3.task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParseWithXPath" />
-        <item itemvalue="Application.ParseCandiesXML" />
-        <item itemvalue="Application.TagContentShower" />
-        <item itemvalue="Application.XMLtoPDFconverter" />
-        <item itemvalue="Application.XMLValidator" />
+        <item itemvalue="Application.XMLtoPDF" />
+        <item itemvalue="Application.XMLtoTXT" />
+        <item itemvalue="Application.XMLtoXMLwithRootChanging" />
+        <item itemvalue="Application.XMLtoHTML" />
+        <item itemvalue="Application.XMLtoHTMLinTable" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +170,7 @@
       <workItem from="1680349261369" duration="12479000" />
       <workItem from="1680434402875" duration="21505000" />
       <workItem from="1687701314892" duration="9297000" />
-      <workItem from="1688220648823" duration="4285000" />
+      <workItem from="1688220648823" duration="12507000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1679745824260</created>
@@ -257,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687710857291</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit">
+      <created>1688225630081</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225630081</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Commit">
+      <created>1688225711809</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688225711809</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

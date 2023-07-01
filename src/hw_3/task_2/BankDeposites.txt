@@ -1,0 +1,36 @@
+Deposit Type: current account
+Name: Universal
+Country: Bikini Bottom
+Depositor: SpongeBob SquarePants
+Account ID: 26007777770001
+Amount: 2757
+Profitability: 0
+Time Constraints: no time constraints
+
+Deposit Type: accumulative account
+Name: Progressive
+Country: Bikini Bottom
+Depositor: SpongeBob SquarePants
+Account ID: 2600775550002
+Amount: 1005
+Profitability: 3
+Time Constraints: 2 years
+
+Deposit Type: term deposite
+Name: TermInator
+Country: Bikini Bottom
+Depositor: Patrick Star
+Account ID: 262056848464
+Amount: 20000
+Profitability: 10
+Time Constraints: 5 years
+
+Deposit Type: savings deposit
+Name: PlainSave
+Country: Switzerland
+Depositor: Sqiudward Tentacles
+Account ID: 26201345154654
+Amount: 50000
+Profitability: 4
+Time Constraints: 3 years
+

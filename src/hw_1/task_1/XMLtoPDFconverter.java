@@ -9,7 +9,7 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import java.io.*;
 
-public class XMLtoPDFconverter {
+class XMLtoPDFconverter {
     public static void convertXMLtoPDF(Source xmlFile, Source xslFile) throws Exception {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
 

@@ -1,4 +1,4 @@
-package hw_3.task1;
+package hw_3.task_1;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
