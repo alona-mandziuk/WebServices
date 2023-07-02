@@ -1,6 +1,17 @@
 Із завдання 1-го уроку.
 Визначити метод, який виконує перетворення розробленого XML документа в документ, вказаний в кожному завданні:
-1) в формат HTML відсортувавши по сумі;+
-2) за допомоги XSL XML-файл в формат XML, де кореневим елементом буде країна;-
-3) в формат plain text, при виведенні організувати подачу інформації в зручний для читання вигляд;+
-4) в PDF з виводом інформації про кожен вклад в окрему сторінку.+
+1) в формат HTML відсортувавши по сумі;
+    https://github.com/alona-mandziuk/WebServices/blob/master/src/hw_3/task_2/XMLtoHTML.java
+    https://github.com/alona-mandziuk/WebServices/blob/master/src/hw_3/task_2/BankDepositesSortByAmount.xslt
+
+2) за допомоги XSL XML-файл в формат XML, де кореневим елементом буде країна;
+    https://github.com/alona-mandziuk/WebServices/blob/master/src/hw_3/task_2/XMLtoXMLwithRootChanging.java
+    https://github.com/alona-mandziuk/WebServices/blob/master/src/hw_3/task_2/BankDepositesRootCountry.xslt
+
+3) в формат plain text, при виведенні організувати подачу інформації в зручний для читання вигляд;
+    https://github.com/alona-mandziuk/WebServices/blob/master/src/hw_3/task_2/XMLtoTXT.java
+    https://github.com/alona-mandziuk/WebServices/blob/master/src/hw_3/task_2/BankDepositesToTxt.xslt
+
+4) в PDF з виводом інформації про кожен вклад в окрему сторінку.
+    https://github.com/alona-mandziuk/WebServices/blob/master/src/hw_3/task_2/XMLtoPDF.java
+    https://github.com/alona-mandziuk/WebServices/blob/master/src/hw_3/task_2/BankDepositesNewPage.xslt
