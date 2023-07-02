@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08794257-47ec-4e34-a056-b07248cc7047" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositedRootCountry.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDeposites.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDeposites.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositesChangingRoot.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositesNewPage.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositesSortByAmount.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositesToTxt.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/XMLtoHTML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/XMLtoPDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/XMLtoTXT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/XMLtoXMLwithRootChanging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/angus_activation_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jakarta_activation_api_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jakarta_xml_bind_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_2/BankDepositesNewPage.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_3/JAXBparsingBankDeposites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_3/entity/BankDeposites.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_3/entity/BankType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_3/entity/DepositType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_3/entity/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_3/task_3/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw_1/task_1/XMLtoPDFconverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_1/task_1/XMLtoPDFconverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw_3/task1/ParseWithXPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_3/task_1/ParseWithXPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw_3/task1/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_3/task_1/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebServices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebServices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw_1/task_1/entity/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw_1/task_1/entity/ObjectFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/_java cbs/homeWork/6_Web-Services/WebServices/src/hw_3/task_2",
+    "last_opened_file_path": "G:/_java cbs/7_WEB-servises/jaxb-runtime/txw2-4.0.3.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,13 +77,13 @@
       <recent name="G:\_java cbs\homeWork\6_Web-Services\WebServices\src\hw_1\task_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.XMLtoPDF">
-    <configuration name="XMLtoHTML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw_3.task_2.XMLtoHTML" />
+  <component name="RunManager" selected="Application.JAXBparsingBankDeposites">
+    <configuration name="JAXBparsingBankDeposites" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw_3.task_3.JAXBparsingBankDeposites" />
       <module name="WebServices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw_3.task_2.*" />
+          <option name="PATTERN" value="hw_3.task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLtoHTMLinTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw_3.task_2.XMLtoHTMLinTable" />
+    <configuration name="XMLtoHTML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw_3.task_2.XMLtoHTML" />
       <module name="WebServices" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JAXBparsingBankDeposites" />
         <item itemvalue="Application.XMLtoPDF" />
         <item itemvalue="Application.XMLtoTXT" />
         <item itemvalue="Application.XMLtoXMLwithRootChanging" />
         <item itemvalue="Application.XMLtoHTML" />
-        <item itemvalue="Application.XMLtoHTMLinTable" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +167,8 @@
       <workItem from="1680349261369" duration="12479000" />
       <workItem from="1680434402875" duration="21505000" />
       <workItem from="1687701314892" duration="9297000" />
-      <workItem from="1688220648823" duration="12507000" />
+      <workItem from="1688220648823" duration="14902000" />
+      <workItem from="1688309096192" duration="5129000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1679745824260</created>
@@ -284,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688225711809</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Commit">
+      <created>1688234478376</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688234478376</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,4 +1,5 @@
-package hw_1.task_1.entity;
+
+package hw_3.task_3.entity;
 
 import javax.xml.namespace.QName;
 import jakarta.xml.bind.JAXBElement;
@@ -9,7 +10,7 @@ import jakarta.xml.bind.annotation.XmlRegistry;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the hw_1.task_1.hw_3.task_3.hw_3.task_3.entity package.
+ * generated in the hw_3.task_3.entity package.
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -26,7 +27,7 @@ public class ObjectFactory {
     private final static QName _Bank_QNAME = new QName("", "bank");
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: hw_1.task_1.hw_3.task_3.hw_3.task_3.entity
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: hw_3.task_3.entity
      * 
      */
     public ObjectFactory() {

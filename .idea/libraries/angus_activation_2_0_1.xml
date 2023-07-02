@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="angus-activation-2.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/jaxb-runtime/angus-activation-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/jaxb-runtime/istack-commons-runtime-4.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/jaxb-runtime/jakarta.activation-api-2.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/jaxb-runtime/jakarta.xml.bind-api-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/jaxb-runtime/jaxb-core-4.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/jaxb-runtime/jaxb-runtime-4.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../7_WEB-servises/jaxb-runtime/txw2-4.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
