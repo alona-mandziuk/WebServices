@@ -12,7 +12,7 @@ import java.io.OutputStream;
 public class XMLtoXMLwithRootChanging {
     public static void main(String[] args) {
         Source xsltFile = new StreamSource
-                ("src/hw_3/task_2/BankDepositedRootCountry.xslt");
+                ("src/hw_3/task_2/BankDepositesRootCountry.xslt");
         Source xmlFile = new StreamSource
                 ("src/hw_1/task_1/BankDeposites.xml");
         try {
@@ -23,7 +23,8 @@ public class XMLtoXMLwithRootChanging {
             throw new RuntimeException(e);
         }
     }
-    static void convertXMLtoXML (Source xmlFile, Source xsltFile) throws TransformerException, FileNotFoundException {
+
+    static void convertXMLtoXML(Source xmlFile, Source xsltFile) throws TransformerException, FileNotFoundException {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
 
         OutputStream htmlFile = new FileOutputStream("src/hw_3/task_2/BankDepositesChangingRoot.xml");

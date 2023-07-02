@@ -23,7 +23,8 @@ public class XMLtoTXT {
             throw new RuntimeException(e);
         }
     }
-    static void convertXMLtoTXT (Source xmlFile, Source xsltFile) throws TransformerException, FileNotFoundException {
+
+    static void convertXMLtoTXT(Source xmlFile, Source xsltFile) throws TransformerException, FileNotFoundException {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
 
         OutputStream htmlFile = new FileOutputStream("src/hw_3/task_2/BankDeposites.txt");

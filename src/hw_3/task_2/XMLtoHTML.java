@@ -23,13 +23,9 @@ class XMLtoHTML {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-
     }
 
-    /**
-     Method converts XML using XSLT to HTML in table and sorts by amount sum.
-     */
-    static void convertXMLtoHTML (Source xmlFile, Source xsltFile) throws TransformerException, FileNotFoundException {
+    static void convertXMLtoHTML(Source xmlFile, Source xsltFile) throws TransformerException, FileNotFoundException {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
 
         OutputStream htmlFile = new FileOutputStream("src/hw_3/task_2/BankDeposites.html");
